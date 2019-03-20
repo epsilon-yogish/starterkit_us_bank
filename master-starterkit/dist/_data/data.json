@@ -272,5 +272,6 @@
     },{
         "floatDirection":"right"
     }],
-    "direction":"center"
+    "direction":"",
+    "tagValue": "1"
 }
