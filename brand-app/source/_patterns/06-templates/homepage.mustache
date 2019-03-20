@@ -1,0 +1,27 @@
+{{> starterkit-organisms-header }}
+<main role="main">
+
+	{{# hero }}
+		{{> starterkit-molecules-block-hero }}
+	{{/ hero}}
+
+	<div class="l">
+		{{> starterkit-organisms-tout-list }}
+	</div>
+
+	<div class="l l--two-col">
+		<div class="l-main">
+			{{# latestPosts }}
+			{{> starterkit-organisms-section-media-list }}
+			{{/ latestPosts }}
+		</div><!--end .l-main-->
+
+		<div class="l-sidebar">
+			{{# featuredPeople }}
+			{{> starterkit-organisms-section-media-list }}
+			{{/ featuredPeople }}
+		</div><!--end .l-sidebar-->
+
+	</div><!--end l--two-col-->
+</main>
+{{> starterkit-organisms-footer }}

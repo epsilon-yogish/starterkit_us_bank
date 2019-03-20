@@ -1,0 +1,18 @@
+<form class="c-form c-form--stacked">
+	<h2 class="c-form__title">Log in</h2>
+
+
+        {{# inList }}
+            <label for="">{{labelTxt}}</label>
+            {{> atoms-input }}
+        {{/ inList }}
+       
+        {{> atoms-checkbox }}
+
+        <div class="c-form__actions">
+            {{> atoms-button }}
+        </div>
+        {{# hyperList }}  
+        {{> atoms-anchor }}
+        {{/ hyperList }}
+</form><!--end c-form--stacked-->

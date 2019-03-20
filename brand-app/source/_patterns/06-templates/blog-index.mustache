@@ -1,0 +1,23 @@
+{{> starterkit-organisms-header }}
+<main role="main">
+
+	{{> starterkit-organisms-page-header }}
+
+	<div class="l l--two-col">
+		<div class="l-main">
+			{{# latestPosts }}
+			{{> starterkit-organisms-section-media-list }}
+			{{/ latestPosts }}
+		</div><!--end .l-main-->
+
+		<div class="l-sidebar">
+			{{# featuredPeople }}
+			{{> starterkit-organisms-section-media-list }}
+			{{/ featuredPeople }}
+			{{# featuredHikes }}
+			{{> starterkit-organisms-section-media-list }}
+			{{/ featuredHikes }}
+		</div><!--end .l-sidebar-->
+	</div><!--end .l-two-col-->
+</main>
+{{> starterkit-organisms-footer }}

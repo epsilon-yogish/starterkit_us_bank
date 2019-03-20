@@ -1,0 +1,72 @@
+{
+    "inList" : [
+    {
+        "labelTxt":"Username",
+        "textInput": {
+            "attributes": [{
+                    "name": "id",
+                    "value": "userName"
+                },
+                {
+                    "name": "autoComplete",
+                    "value": "off"
+                },
+                {
+                    "name": "class",
+                    "value": "form-control"
+                },
+                {
+                    "name": "placeholder",
+                    "value": ""
+                },
+                {
+                    "name": "type",
+                    "value": "text"
+                }
+            ],
+            "required": {
+                "errorMessage": "Lorem Ipsum"
+            }
+        }
+    },
+    {
+        "labelTxt":"Password",
+        "textInput": {
+            "attributes": [{
+                    "name": "id",
+                    "value": "password"
+                },
+                {
+                    "name": "autoComplete",
+                    "value": "off"
+                },
+                {
+                    "name": "class",
+                    "value": "form-control"
+                },
+                {
+                    "name": "placeholder",
+                    "value": ""
+                },
+                {
+                    "name": "type",
+                    "value": "password"
+                }
+            ],
+            "required": {
+                "errorMessage": "Lorem Ipsum"
+            }
+        }
+    }
+],
+"chkText":"Remember My Username",
+"btnText":"Log In",
+
+"hyperList":[{
+    "anchorTxt":"Forgot Username",
+    "floatDirection":"left"
+},{
+    "anchorTxt":"Forgot Password",
+    "floatDirection":"right"
+}]
+}
