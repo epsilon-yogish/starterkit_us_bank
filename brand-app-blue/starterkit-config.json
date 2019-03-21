@@ -4,7 +4,7 @@
     "source" : {
       "root": "/dist/",
       "patterns" : "/dist/_patterns/",
-      "patternFolders" : ["00-atoms", "o1-molecules", "02-organisms"],
+      "patternFolders" : ["00-atoms", "01-molecules", "02-organisms"],
       "assets": ["js", "images", "fonts", "css"]
     }
   }
