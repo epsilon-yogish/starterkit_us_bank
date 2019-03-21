@@ -289,7 +289,19 @@
         {},
         {}
     ],
-
+    "footer":{
+        "footerLinks":
+            {
+                "list" : [
+                {},
+                {},
+                {},
+                {}
+                ]
+            },
+        "copyright":
+            [{},{}]
+        },
     "headerData": {
         
         "imgSquare" : {
@@ -303,5 +315,5 @@
             {}
         ]   
     }
-}
+    }
  
