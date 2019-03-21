@@ -273,5 +273,10 @@
         "floatDirection":"right"
     }],
     "direction":"",
-    "tagValue": "1"
+    "tagValue": "1",
+    "icon-class":"icon-demo",
+    "icon-text":"Lorem ipsum",
+    "icon-list":[
+        {},{}
+    ]
 }
