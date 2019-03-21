@@ -288,6 +288,20 @@
     "list" : [
         {},
         {}
-    ]
+    ],
+
+    "headerData": {
+        
+        "imgSquare" : {
+            "src": "../../images/starterkit/logo.svg",
+            "alt": "Square Image"
+        },
+        "styleModifier": "header-logo",
+
+        "icon-list":[
+            {},
+            {}
+        ]   
+    }
 }
  
