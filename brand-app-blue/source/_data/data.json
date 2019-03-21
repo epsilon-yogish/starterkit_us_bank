@@ -267,11 +267,41 @@
     },
     
     "labelTxt": "Label",
-    "hyperList":[{
-        "floatDirection":"left"
-    },{
-        "floatDirection":"right"
-    }],
+    "hyperList":[
+        {
+            "floatDirection":"left"
+        },
+        {
+            "floatDirection":"right"
+        }
+    ],
+
     "direction":"",
-    "tagValue": "1"
+    "tagValue": "1",
+    "icon-class":"icon-demo",
+    "icon-text":"Lorem ipsum",
+    "icon-list":[
+        {},
+        {}
+    ],
+
+    "list" : [
+        {},
+        {}
+    ],
+
+    "headerData": {
+        
+        "imgSquare" : {
+            "src": "../../images/starterkit/logo.svg",
+            "alt": "Square Image"
+        },
+        "styleModifier": "header-logo",
+
+        "icon-list":[
+            {},
+            {}
+        ]   
+    }
 }
+ 
