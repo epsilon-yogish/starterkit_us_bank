@@ -1,0 +1,23 @@
+<footer>
+{{ #footer }}
+    <div class="container">
+        <div class="row footer-links">
+            <div class="col-md-6">
+                {{ #footerLinks }}
+                    {{>starterkit-molecules-list}}
+                {{ /footerLinks }}
+            </div>
+            <div class="col-md-6">           
+            {{>starterkit-atoms-logo}}            
+            </div>
+        </div>
+        <div class="row footer-links">
+            <div class="col-md-12">
+                {{#copyright}}
+                    {{>starterkit-atoms-paragraph}}
+                {{/copyright}}        
+            </div>
+        </div>
+    </div>
+{{ /footer }}
+</footer>
