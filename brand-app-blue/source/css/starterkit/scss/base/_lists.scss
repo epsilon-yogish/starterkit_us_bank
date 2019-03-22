@@ -3,32 +3,27 @@
 \*------------------------------------*/
 
 /**
- * Ordered/Unordered list base styles
+ * icon list item
  */
-ol, ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
 
-/**
- * Definition list base styles
- */
-dl {
-	overflow: hidden;
-	margin: 0 0 $space;
-}
+.icon-list{
+	li{
+		font-size: 16px;
+		line-height: 19px;
+		letter-spacing: 0.15px;
+		position: relative;
+		padding-left: 20px;
 
-/**
- * Terms/Names base styles
- */
-dt {
-	font-weight: bold;
-}
-
-/**
- * Definition list description base styles
- */
-dd {
-	margin-left: 0;
+		&.icon::after{
+			height:21px;
+			width:20px;
+			position: absolute;
+			text-align: center;
+			left: 0;
+		}
+		
+		// &.icon-demo::after {
+		// 	content: url('../../../../images/starterkit/icon-arrowhead.svg');
+		// }
+	}
 }
