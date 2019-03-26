@@ -1,0 +1,19 @@
+{"footer":{
+    "footerLinks":{
+            "list" : [
+            {"anchorTxt":"Contact US"},
+            {"anchorTxt":"Program Rules"},
+            {"anchorTxt":"FAQs"},
+            {"anchorTxt":"Privacy"}
+            ]           
+    },
+    "imgSquare":{
+        "src":"../../images/logo.png",
+        "alt":"asdfffffg"
+    },
+    "copyright":
+        [{"quoteText":"&copy; 2019 U.S. Bank"},
+         {"quoteText":"The creditor and issuer of your card is U.S. Bank National Association, pursuant to a license of Visa U.S.A. Inc."}
+        ]
+    }
+}

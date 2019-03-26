@@ -2,16 +2,17 @@
 {{ #footer }}
     <div class="container">
         <div class="row footer-links">
-            <div class="col-md-6">
+            <div class="col-xl-6 col-lg-3 col-md-4 col-6">
                 {{ #footerLinks }}
                     {{>starterkit-molecules-list}}
                 {{ /footerLinks }}
             </div>
-            <div class="col-md-6">           
+            <div class="col-xl-6 col-lg-9 col-md-8 col-6">           
             {{>starterkit-atoms-logo}}            
-            </div>
+            </div>            
         </div>
-        <div class="row footer-links">
+        <hr/>
+        <div class="row copyright">
             <div class="col-md-12">
                 {{#copyright}}
                     {{>starterkit-atoms-paragraph}}

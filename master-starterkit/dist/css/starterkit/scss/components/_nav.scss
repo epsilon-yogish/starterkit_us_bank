@@ -17,3 +17,72 @@
 		padding: $pad;
 	}
 }
+
+.primary-nav-wrapper{
+	.navbar-nav{
+		& > .nav-item{
+			position: static;
+			.nav-item{
+				padding: 0px 15px;
+				.dropdown-menu{
+					top: 0px;
+					right: -100%;
+					left: auto;
+				    margin: 0px 0px;
+				    border: 0px;
+				    height: 570px;
+				    background-color: #DFDFDE;
+
+				    ul {
+				    	padding: 20px 5px;
+					    li{
+					    	padding: 3px 15px;
+					    	a{
+					    		color: $color-gray-87;
+					    	}
+					    }
+					}
+				}
+			}
+		}
+		.dropdown-menu{
+			width: 100%;
+		    height: 573px;
+		    padding: 0px 0px;
+		    margin: 0px 0px;
+		    border-radius: 0px;
+		    & > .row{
+		    	height: 100%;
+		    }
+		}
+
+		.nav-sub-menu{
+			background-color: #ebebeb;
+			height: 100%;
+			padding-top: 15px;
+		}
+
+	}
+	.card-wrapper{
+		height: 100%;
+		border-radius: 0px;
+	}
+	.row.no-gutters {
+	  margin-right: 0;
+	  margin-left: 0;
+
+	  & > [class^="col-"],
+	  & > [class*=" col-"] {
+	    padding-right: 0;
+	    padding-left: 0;
+	  }
+	}
+
+	.mega-dropdown{
+		.nav-sub-menu{
+			.nav-item.active{
+				background-color: #DFDFDE;
+			}
+		}
+	} 
+}

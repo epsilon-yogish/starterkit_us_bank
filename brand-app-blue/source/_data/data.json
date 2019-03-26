@@ -369,6 +369,19 @@
                 "anchorTxt":"Log out",
             }
         ]   
-    }
+    },
+    "footer":{
+        "footerLinks":
+            {
+                "list" : [
+                {},
+                {},
+                {},
+                {}
+                ]
+            },
+        "copyright":
+            [{},{}]
+        }
 }
  
