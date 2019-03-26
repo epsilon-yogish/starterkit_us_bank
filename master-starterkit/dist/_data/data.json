@@ -321,5 +321,92 @@
             {},
             {}
         ]   
+    },
+    "megaprimaryNav":{
+        "primaryNav" : [
+
+                {
+                    "topLinkTxt" : "Lorem 1",
+                    "megaListSubMenu" : {
+                    "megaList": [
+                        {
+                            "listTxt" : "For the Home",
+                            "megaListSub" : {
+                                "list": [
+                                    {
+                                        "listText": "some text"
+                                    },
+                                    {
+                                        "listText": "some text"
+                                    },
+                                    {
+                                        "listText": "some text"
+                                    },
+                                    {
+                                        "listText": "some text"
+                                    }
+
+                                ]
+                            }
+                        },
+                        {
+                            "listTxt" : "For the Home",
+                            "megaListSub" : ""
+                        },
+                        {
+                            "listTxt" : "For the Home",
+                            "megaListSub" : {
+                                "list": [
+                                    {
+                                        "listText": "some text"
+                                    },
+                                    {
+                                        "listText": "some text"
+                                    },
+                                    {
+                                        "listText": "some text"
+                                    },
+                                    {
+                                        "listText": "some text"
+                                    }
+
+                                ]
+                            }
+                        },
+                        {
+                            "listTxt" : "For the Home",
+                            "megaListSub" : ""
+                        },
+                        {
+                            "listTxt" : "For the Home",
+                            "megaListSub" : ""
+                        }
+                    ]
+                    }
+
+                },
+                {
+                    "topLinkTxt" : "Lorem 2",
+                    "megaListSubMenu" : ""
+                },
+                {
+                    "topLinkTxt" : "Lorem 3",
+                    "megaListSubMenu" : ""
+                },
+                {
+                    "topLinkTxt" : "Lorem 4",
+                    "megaListSubMenu" : ""
+                },
+                {
+                    "topLinkTxt" : "Lorem 5",
+                    "megaListSubMenu" : ""
+                }
+
+
+        ],
+        
+        
     }
-    }
+
+
+}

@@ -1,0 +1,51 @@
+{{# megaprimaryNav }}
+<div class="primary-nav-wrapper">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        {{# primaryNav }}
+        <li class="nav-item dropdown mega-dropdown">
+
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ topLinkTxt }}
+          </a>
+          {{# megaListSubMenu }}
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                  <ul class="nav-sub-menu">
+                    {{# megaList }}
+                        <li class="nav-item">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarSubDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ listTxt }}</a>
+                          {{# megaListSub }}
+                          <div class="dropdown-menu offset-md-4" aria-labelledby="navbarSubDropdownMenu">
+                            <ul>
+                              {{# list }}
+                              <li>{{>starterkit-atoms-anchor}}</li>
+                              {{/ list }}
+                            </ul>
+                          </div>
+                          {{/ megaListSub }}
+                        </li>
+                    {{/ megaList }}
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                {{> starterkit-molecules-card}}
+              </div>
+              <div class="col-md-4">
+                {{> starterkit-molecules-card}}
+              </div>
+            </div>
+          </div>
+          {{/ megaListSubMenu }}
+        </li>
+        {{/ primaryNav }}
+      </ul>
+    </div>
+  </nav>
+</div>
+{{/ megaprimaryNav }}
