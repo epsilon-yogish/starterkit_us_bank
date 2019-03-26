@@ -278,6 +278,13 @@
 
     "direction":"",
     "tagValue": "1",
+    "card":{
+        "title": "Card title",
+        "desc": "Lorem ipsum dolor sit amet",
+        "points": "20900",
+        "btnText": "Lorem ipsum",
+        "btnClass": "btn btn-primary"
+    },
     "icon-class":"icon-demo",
     "icon-text":"Lorem ipsum",
     "icon-list":[
@@ -316,4 +323,3 @@
         ]   
     }
     }
- 
