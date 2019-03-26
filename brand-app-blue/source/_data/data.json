@@ -289,18 +289,85 @@
         {},
         {}
     ],
+    "footer":{
+        "footerLinks":
+            {
+                "list" : [
+                {},
+                {},
+                {},
+                {}
+                ]
+            },
+        "copyright":
+            [{},{}]
+        },
+
+
 
     "headerData": {
         
         "imgSquare" : {
-            "src": "../../images/starterkit/logo.svg",
+            "src": "../../images/logo.png",
             "alt": "Square Image"
         },
         "styleModifier": "header-logo",
 
-        "icon-list":[
-            {},
-            {}
+        "icon-list": [
+            {
+                "imgSquare" : {
+                    "src": "../../images/starterkit/help.png",
+                    "alt": "Square Image"
+                },
+                "anchorTxt":"Help",
+            },
+            {
+                "imgSquare" : {
+                    "src": "../../images/starterkit/help.png",
+                    "alt": "Square Image"
+                },
+                "anchorTxt":"Login",
+            }
+        ]   
+    },
+
+    "authHeaderData": {
+        
+        "imgSquare" : {
+            "src": "../../images/logo.png",
+            "alt": "Square Image"
+        },
+        "styleModifier": "header-logo",
+
+        "icon-list": [
+            {
+                "imgSquare" : {
+                    "src": "../../images/starterkit/profile.png",
+                    "alt": "Square Image"
+                },
+                "anchorTxt": "Profile",
+            },
+            {
+                "imgSquare" : {
+                    "src": "../../images/starterkit/cart.png",
+                    "alt": "Square Image"
+                },
+                "anchorTxt":"Cart",
+            },
+            {
+                "imgSquare" : {
+                    "src": "../../images/starterkit/help.png",
+                    "alt": "Square Image"
+                },
+                "anchorTxt":"Help",
+            },
+            {
+                "imgSquare" : {
+                    "src": "../../images/starterkit/logout.png",
+                    "alt": "Square Image"
+                },
+                "anchorTxt":"Log out",
+            }
         ]   
     }
 }

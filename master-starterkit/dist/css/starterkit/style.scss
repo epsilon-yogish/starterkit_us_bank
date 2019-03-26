@@ -130,7 +130,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 // @import "scss/components/feedback";
 
 @import "scss/components/card.scss";
-
+@import "scss/components/header";
 
 
 
@@ -138,4 +138,4 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
- @import "scss/layout/layout";
+@import "scss/layout/layout";
